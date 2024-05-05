@@ -1,0 +1,2 @@
+docker image build -t raul/tomcat_poc .
+docker container run --publish 8081:8080 raul/tomcat_poc

@@ -12,7 +12,7 @@ RUN apt-get update \
     && apt-get install -y libjpeg-dev \
     && apt-get install -y libjpeg62-turbo-dev \
     && apt-get install -y libfreetype6-dev \
-    && apt-get install default-mysql-client \
+    && apt-get install -y default-mysql-client \
     && rm -rf /var/lib/apt/lists/* \
     && docker-php-ext-install zip
 
